@@ -1,26 +1,50 @@
-[FINAL-RELEASE-NOTES-KO]
+================================================================================
+FM SIMULATOR INTEGRATED RELEASE NOTES (PHASE 2 - TACTICS & OFFICIAL FIXTURES)
+================================================================================
+■ 기준일자: 2026년 11월 4일
+■ 반영 사항:
+  1. 사용자 선택 팀 선수단 매칭 및 이적시장/U21 명단 최신화
+  2. FM 스타일 포메이션 & 세부 포지션 선택 엔진 구축 (4-3-3, 4-2-3-1 등)
+  3. 5대 리그 공식 리그 + 국내 주요 컵대회 + UEFA 클럽 대항전 A매치 구간별 통합 일정
 
-■ 프로젝트: 2026-27 시즌 5대 리그 등록 선수 데이터 통합 (Phase 1)
-■ 기준 일자: 2026년 11월 4일
+--------------------------------------------------------------------------------
+1. 포메이션 및 세부 포지션 체계 (Tactical Engine)
+--------------------------------------------------------------------------------
+[4-3-3 포메이션]
+- GK: Keeper, Sweeper Keeper
+- DF: Full Back (Left/Right), Wing Back, Inverted Full Back, Centre Back, Ball Playing Defender
+- MF: Centre Midfield (LCM/CM/RCM) -> Box-to-Box, Advanced Playmaker, Deep Lying Playmaker, Mezzala, Defensive Midfielder, Ball Winning Midfielder, Anchor Man
+- FW: Winger (LW/RW), Inside Forward, Inverted Winger, Centre Forward (Advanced Forward, Target Forward, Pressing Forward, False 9)
 
-1. 데이터 개요
-- 본 파일은 프리미어리그(EPL), 라리가(La Liga), 분데스리가(Bundesliga), 리그앙(Ligue 1), 세리에 A(Serie A)의 전체 등록 선수 명단 및 U21 주요 출전 선수 정보를 통합한 데이터 세트입니다.
+[4-2-3-1 포메이션]
+- GK: Keeper, Sweeper Keeper
+- DF: Full Back (Left/Right), Wing Back, Centre Back, Ball Playing Defender
+- DM: Defensive Midfielder (LDM/RDM) -> Volante, Deep Lying Playmaker, Segundo Volante, Ball Winning Midfielder, Anchor Man
+- AM: Side Midfielder (LM/RM), Offensive Midfielder (CAM) -> Winger, Inside Forward, Advanced Playmaker, Shadow Striker
+- FW: Centre Forward -> Advanced Forward, Target Forward, Poacher
 
-2. 리그별 수집 선수 현황
-- 세리에 A (Serie A): 657명
-- 라리가 (La Liga): 571명
-- 분데스리가 (Bundesliga): 567명
-- 프리미어리그 (EPL): 495명 (1군 25인 등록 + U21 출전 선수)
-- 리그앙 (Ligue 1): 483명
---------------------------------------------------
-- 총합: 2,773명
+--------------------------------------------------------------------------------
+2. 통합 공식 일정 체계 (Official Match Calendar by A-Match Windows)
+--------------------------------------------------------------------------------
+포함 대회:
+- 잉글랜드: EPL, FA컵, 카라바오컵(EFL컵), 커뮤니티 실드
+- 스페인: 라리가, 코파 델 레이, 수페르코파 데 에스파냐
+- 이탈리아: 세리에 A, 코파 이탈리아, 수페르코파 이탈리아나
+- 독일: 분데스리가, DFB 포칼, 프란츠 베켄바우어 슈퍼컵
+- 프랑스: 리그 1, 쿠프 드 프랑스, 트로페 데 샹피옹
+- 유럽: 챔피언스리그 (UCL), 유로파리그 (UEL), 컨퍼런스리그 (UECL), UEFA 슈퍼컵
 
-3. 주요 데이터 구조
-- Nome (이름)
-- Cognome (성)
-- Squadra (소속 구단)
-- Ruolo (포지션: Portiere, Difensore, Centrocampista, Attaccante)
-- Valore di mercato (EUR) (시장 가치)
+① 1차 A매치 구간 (2026.09.21 ~ 10.06)
+  - 슈퍼컵: UEFA 슈퍼컵(8/12), 커뮤니티 실드(8/16), 베켄바우어 슈퍼컵(8/22)
+  - A매치 전: EPL 5R, 라리가 5-6R, 세리에A 4-5R, 분데스리가 4R, 리그1 5R, FA컵 2~3차 예선, 카라바오컵 2~3R, DFB포칼 1R, UCL League Phase 1R(9/8-10)
+  - A매치 후: League MD 6~10/11 재개, UCL 2R(10/13-14) & 3R(10/20-21), UEL 2R(10/15) & 3R(10/22), UECL 1R(10/15) & 2R, 카라바오컵 3/4R, DFB포칼 2R(10/27-28)
 
-4. 비고
-- 기존 전달된 `play_data.csv` 및 `final_release.csv` 통합본을 바탕으로 분리 추출된 개별 파일입니다.
+② 2차 A매치 구간 (2026.11.09 ~ 11.17)
+  - A매치 직전: EPL 10R(11/6-8), 세리에A 11R(11/6-8), 리그1 10R(11/6-8), DFB포칼 2R(10/27-28), UCL 4R(11/3-4), UEL 4R(11/5), UECL 3R(11/5), FA컵 1R
+  - A매치 후: League MD 11~30 재개, UCL 5R(11/24-25), 6R(12/8-9), 7R(1/19-20), 8R(1/27), PO(2/16-24), 16강(3/9-17), FA컵 2R(12/5)~5R/8강, 각국 슈퍼컵(겨울)
+
+③ 3차 A매치 구간 (2027.03.22 ~ 03.30)
+  - A매치 직전: 각 리그 30R 전후, FA컵 5R종료/8강, 카라바오컵 결승 종료, 각국 컵대회 4강, UCL/UEL/UECL 16강 종료
+  - A매치 후: 리그 최종 라운드(EPL/라리가/세리에A 38R, 분데스/리그1 34R), 각국 컵대회 결승, UCL 8강(4/6-14), 4강(4/27-5/5), 결승(6/5)
+
+================================================================================
