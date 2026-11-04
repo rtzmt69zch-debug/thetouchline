@@ -1,0 +1,26 @@
+[FINAL-RELEASE-NOTES-KO]
+
+■ 프로젝트: 2026-27 시즌 5대 리그 등록 선수 데이터 통합 (Phase 1)
+■ 기준 일자: 2026년 11월 4일
+
+1. 데이터 개요
+- 본 파일은 프리미어리그(EPL), 라리가(La Liga), 분데스리가(Bundesliga), 리그앙(Ligue 1), 세리에 A(Serie A)의 전체 등록 선수 명단 및 U21 주요 출전 선수 정보를 통합한 데이터 세트입니다.
+
+2. 리그별 수집 선수 현황
+- 세리에 A (Serie A): 657명
+- 라리가 (La Liga): 571명
+- 분데스리가 (Bundesliga): 567명
+- 프리미어리그 (EPL): 495명 (1군 25인 등록 + U21 출전 선수)
+- 리그앙 (Ligue 1): 483명
+--------------------------------------------------
+- 총합: 2,773명
+
+3. 주요 데이터 구조
+- Nome (이름)
+- Cognome (성)
+- Squadra (소속 구단)
+- Ruolo (포지션: Portiere, Difensore, Centrocampista, Attaccante)
+- Valore di mercato (EUR) (시장 가치)
+
+4. 비고
+- 기존 전달된 `play_data.csv` 및 `final_release.csv` 통합본을 바탕으로 분리 추출된 개별 파일입니다.
