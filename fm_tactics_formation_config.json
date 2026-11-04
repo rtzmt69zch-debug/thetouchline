@@ -1,0 +1,216 @@
+{
+  "Formations": {
+    "4-3-3": {
+      "Positions": [
+        {
+          "role": "GK",
+          "label": "Keeper",
+          "choices": [
+            "Keeper",
+            "Sweeper Keeper"
+          ]
+        },
+        {
+          "role": "LB",
+          "label": "Full Back (Left)",
+          "choices": [
+            "Full Back",
+            "Wing Back",
+            "Inverted Full Back"
+          ]
+        },
+        {
+          "role": "LCB",
+          "label": "Centre Back (Left)",
+          "choices": [
+            "Centre Back",
+            "Ball Playing Defender",
+            "No-Nonsense Centre Back"
+          ]
+        },
+        {
+          "role": "RCB",
+          "label": "Centre Back (Right)",
+          "choices": [
+            "Centre Back",
+            "Ball Playing Defender",
+            "No-Nonsense Centre Back"
+          ]
+        },
+        {
+          "role": "RB",
+          "label": "Full Back (Right)",
+          "choices": [
+            "Full Back",
+            "Wing Back",
+            "Inverted Full Back"
+          ]
+        },
+        {
+          "role": "LCM",
+          "label": "Centre Midfield (Left)",
+          "choices": [
+            "Centre Midfield",
+            "Box-to-Box Midfielder",
+            "Advanced Playmaker",
+            "Deep Lying Playmaker",
+            "Mezzala"
+          ]
+        },
+        {
+          "role": "CM",
+          "label": "Centre Midfield (Center)",
+          "choices": [
+            "Centre Midfield",
+            "Defensive Midfielder",
+            "Deep Lying Playmaker",
+            "Ball Winning Midfielder",
+            "Anchor Man"
+          ]
+        },
+        {
+          "role": "RCM",
+          "label": "Centre Midfield (Right)",
+          "choices": [
+            "Centre Midfield",
+            "Box-to-Box Midfielder",
+            "Advanced Playmaker",
+            "Deep Lying Playmaker",
+            "Carrilero"
+          ]
+        },
+        {
+          "role": "LW",
+          "label": "Winger (Left)",
+          "choices": [
+            "Winger",
+            "Inside Forward",
+            "Inverted Winger"
+          ]
+        },
+        {
+          "role": "CF",
+          "label": "Centre Forward",
+          "choices": [
+            "Centre Forward",
+            "Advanced Forward",
+            "Target Forward",
+            "Pressing Forward",
+            "False 9"
+          ]
+        },
+        {
+          "role": "RW",
+          "label": "Winger (Right)",
+          "choices": [
+            "Winger",
+            "Inside Forward",
+            "Inverted Winger"
+          ]
+        }
+      ]
+    },
+    "4-2-3-1": {
+      "Positions": [
+        {
+          "role": "GK",
+          "label": "Keeper",
+          "choices": [
+            "Keeper",
+            "Sweeper Keeper"
+          ]
+        },
+        {
+          "role": "LB",
+          "label": "Full Back (Left)",
+          "choices": [
+            "Full Back",
+            "Wing Back"
+          ]
+        },
+        {
+          "role": "LCB",
+          "label": "Centre Back (Left)",
+          "choices": [
+            "Centre Back",
+            "Ball Playing Defender"
+          ]
+        },
+        {
+          "role": "RCB",
+          "label": "Centre Back (Right)",
+          "choices": [
+            "Centre Back",
+            "Ball Playing Defender"
+          ]
+        },
+        {
+          "role": "RB",
+          "label": "Full Back (Right)",
+          "choices": [
+            "Full Back",
+            "Wing Back"
+          ]
+        },
+        {
+          "role": "LDM",
+          "label": "Defensive Midfielder (Left)",
+          "choices": [
+            "Defensive Midfielder",
+            "Deep Lying Playmaker",
+            "Ball Winning Midfielder",
+            "Anchor Man"
+          ]
+        },
+        {
+          "role": "RDM",
+          "label": "Defensive Midfielder (Right)",
+          "choices": [
+            "Defensive Midfielder",
+            "Volante",
+            "Deep Lying Playmaker",
+            "Segundo Volante"
+          ]
+        },
+        {
+          "role": "LM",
+          "label": "Side Midfielder (Left)",
+          "choices": [
+            "Side Midfielder",
+            "Winger",
+            "Inside Forward"
+          ]
+        },
+        {
+          "role": "CAM",
+          "label": "Offensive Midfielder",
+          "choices": [
+            "Offensive Midfielder",
+            "Advanced Playmaker",
+            "Shadow Striker",
+            "Attacking Midfielder"
+          ]
+        },
+        {
+          "role": "RM",
+          "label": "Side Midfielder (Right)",
+          "choices": [
+            "Side Midfielder",
+            "Winger",
+            "Inside Forward"
+          ]
+        },
+        {
+          "role": "CF",
+          "label": "Centre Forward",
+          "choices": [
+            "Centre Forward",
+            "Advanced Forward",
+            "Target Forward",
+            "Poacher"
+          ]
+        }
+      ]
+    }
+  }
+}
